@@ -1,5 +1,5 @@
 {
-  "name": "blockchain-spv-dash",
+  "name": "@dashevo/blockchain-spv",
   "version": "3.1.3",
   "description": "Stores blockchain headers and verifies transactions with SPV",
   "main": "index.js",
@@ -52,10 +52,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snogcel/blockchain-spv-dash.git"
+    "url": "git+https://github.com/dashevo/blockchain-spv.git"
   },
   "bugs": {
-    "url": "https://github.com/snogcel/blockchain-spv-dash/issues"
+    "url": "https://github.com/dashevo/blockchain-spv/issues"
   },
-  "homepage": "https://github.com/snogcel/blockchain-spv-dash#readme"
+  "homepage": "https://github.com/dashevo/blockchain-spv#readme"
 }
