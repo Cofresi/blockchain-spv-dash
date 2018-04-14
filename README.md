@@ -1,14 +1,14 @@
-# blockchain-spv-dash
+# blockchain-spv
 
-[![npm version](https://img.shields.io/npm/v/blockchain-spv-dash.svg)](https://www.npmjs.com/package/blockchain-spv-dash)
-[![Build Status](https://travis-ci.org/dashpay/blockchain-spv-dash.svg?branch=master)](https://travis-ci.org/dashpay/blockchain-spv-dash)
-[![Dependency Status](https://david-dm.org/dashpay/blockchain-spv-dash.svg)](https://david-dm.org/dashpay/blockchain-spv-dash)
+[![npm version](https://img.shields.io/npm/v/@dashevo/blockchain-spv.svg)](https://www.npmjs.com/package/@dashevo/blockchain-spv)
+[![Build Status](https://travis-ci.org/dashevo/blockchain-spv?branch=master)](https://travis-ci.org/dashevo/blockchain-spv)
+[![Dependency Status](https://david-dm.org/dashevo/blockchain-spv.svg)](https://david-dm.org/dashevo/blockchain-spv
 
 **Stores blockchain headers and verifies transactions with SPV**
 
 ## Usage
 
-`npm install blockchain-spv-dash`
+`npm install @dashevo/blockchain-spv`
 
 ```js
 // import blockchain parameters for Dash
@@ -18,7 +18,7 @@ var params = require('webcoin-dash').blockchain
 var db = levelup('dash.chain', { db: require('memdown') })
 
 // create blockchain
-var Blockchain = require('blockchain-spv-dash')
+var Blockchain = require('@dashevo/blockchain-spv')
 var chain = new Blockchain(params, db)
 
 // wait for the blockchain to be ready
